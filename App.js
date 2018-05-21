@@ -12,7 +12,7 @@ export default class App extends React.Component {
 
   
   _onPressButton() {
-    fetch('https://getroomdeatils.azurewebsites.net/api/queryRooms?code=wOwO/UjOyHcdeoCkQJ7ReOpW48AQ4z2Jsh1EVBdS6zDk/MAR58TKrg==&name=all')
+    fetch('[Your URL Here]')
     .then((response) => response.json())
     .then((responseJson) => {
       console.log(responseJson.data)
